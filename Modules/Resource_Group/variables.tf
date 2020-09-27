@@ -23,6 +23,7 @@ variable "rg_location" {
 
 
 variable "rg_tags" {
+
   description = " (Optional) A mapping of tags which should be assigned to the Resource Group."
   type        = map(string)
   default = {
